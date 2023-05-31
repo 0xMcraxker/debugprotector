@@ -4,7 +4,7 @@ edition = "2021"
 license = "MIT"
 name = "debugprotector"
 version = "0.1.4"
-repository = "https://github.com/mcraxker/debugprotector"
+repository = "https://github.com/0xMcraxker/debugprotector"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
