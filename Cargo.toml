@@ -1,0 +1,13 @@
+[package]
+description = "Advanced antidebugger using assembly calls and winapi functions"
+edition = "2021"
+license = "MIT"
+name = "debugprotector"
+version = "0.1.4"
+repository = "https://github.com/mcraxker/debugprotector"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+winapi = {version = "0.3.9", features = ["debugapi", "handleapi", "winuser", "processthreadsapi", "tlhelp32"]}
+winsafe = {version = "0.0.13", features = ["kernel"]}
